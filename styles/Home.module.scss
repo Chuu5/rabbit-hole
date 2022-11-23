@@ -1,0 +1,59 @@
+.homeCont {
+  max-width: 1140px;
+  margin: 0 auto;
+
+  .imageCont {
+    position: relative;
+    width: 950px;
+    height: 550px;
+    margin: 20px auto 0 auto;
+
+
+    .imageText {
+      position: absolute;
+      bottom: 0;
+      padding-block: 30px;
+      width: 100%;
+  
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      background-color: rgba(0, 0, 0, 0.336);
+
+      h3 {
+        font-family: 'Noto Sans Display', sans-serif;
+        font-size: 1.8rem;
+        color: #584F6D;
+      }
+  
+    }
+  }
+
+  .members {
+    // background-color: #EED9BF;
+    width: 50%;
+    height: 40px;
+    margin: 40px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+    h3 {
+      color: #EED9BF;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 3rem;
+      border-bottom: 3px solid #584F6D;
+      height: fit-content;
+      padding-inline: 15px;
+    }
+  }
+
+  .cards {
+      display: flex;
+      gap: 50px;
+      flex-wrap: wrap;
+      margin-top: 40px;
+	  justify-content: center;
+  }
+}
