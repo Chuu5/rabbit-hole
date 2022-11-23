@@ -22,6 +22,7 @@ function Home() {
         <div className={styles.cards}>
             <Card backColor="#F8DB92" image="/images/Ame186.webp" />
             <Card backColor="#5D81C7" image="/images/Gura.webp" />
+            <Card backColor="#4E3C58" image="/images/Ina.webp" />
         </div>
       </div>
     </Layout>
