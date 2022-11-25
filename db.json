@@ -1,0 +1,64 @@
+{
+    "members": [
+        {
+            "id": 1,
+            "name": "Amelia Watson",
+            "color": "#F8DB92",
+            "image": "/images/Ame186.webp"
+        },
+        {
+            "id": 2,
+            "name": "Gawr Gura",
+            "color": "#5D81C7",
+            "image": "/images/Gura.webp"
+        },
+        {
+            "id": 3,
+            "name": "Ninomae Inanis",
+            "color": "#816391",
+            "image": "/images/Ina.webp"
+        },
+        {
+            "id": 3,
+            "name": "Calliope Mori",
+            "color": "#C90D40",
+            "image": "/images/Mori.webp"
+        },
+        {
+            "id": 4,
+            "name": "Takanashi Kiara",
+            "color": "#FF511C",
+            "image": "/images/Kiara.webp"
+        },
+        {
+            "id": 5,
+            "name": "Irys",
+            "color": "#BB94AE",
+            "image": "/images/Irys.png"
+        },
+        {
+            "id": 6,
+            "name": "Hakos Baelz",
+            "color": "#F28B85",
+            "image": "/images/Baelz.png"
+        },
+        {
+            "id": 7,
+            "name": "Nanashi Mumei",
+            "color": "#C29371",
+            "image": "/images/Mumei.png"
+        },
+        {
+            "id": 8,
+            "name": "Ceres Fauna",
+            "color": "#B4E4C7",
+            "image": "/images/Fauna.png"
+        },
+        {
+            "id": 9,
+            "name": "Ouro Kronii",
+            "color": "#6879C7",
+            "image": "/images/Kronii.png"
+        }
+    ]
+}

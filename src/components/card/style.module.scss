@@ -1,7 +1,57 @@
 .cardCont {
     position: relative;
     width: 250px;
-    height: 375px;
+    height: 360px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.149);
     border-radius: 15px;
+    transition: 200ms;
+
+    &:hover {
+        scale: 1.05;
+    }
+
+    .details {
+        background-color: rgba(0, 0, 0, 0.395);
+        
+        flex-direction: column;
+        justify-content: center;
+
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: 2;
+        border-radius: 15px;
+
+        padding: 30px;
+        text-align: center;
+
+        h3 {
+            font-family: 'Roboto', sans-serif;
+            margin-bottom: 25px;
+            font-size: 1.4rem;
+        }
+
+        button {
+            width: fit-content;
+            margin: 0 auto;   
+            font-size: 1.2rem;
+            font-weight: 500;
+            font-family: 'Roboto', sans-serif;
+            
+            cursor: pointer;
+            background-color: transparent;
+            border: none;
+
+            color: white;
+            padding: 5px 20px;
+            transition: 300ms;
+            
+            &:hover {
+                background-color: #FE9272;
+                color: #FFFDE0;
+                border: 1px solid #000;
+            }
+        }
+
+    }
 }
